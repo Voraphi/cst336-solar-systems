@@ -26,8 +26,6 @@ app.get("*", function(request, response) {
    response.render("error.html"); 
 });
 
-
-
 app.listen(process.env.PORT, process.env.IP, function() {
     console.log("Express Server is Running...");
 });
